@@ -15,7 +15,7 @@ const images = [
 
 
 const imagesList = images.map(({ url, alt }) =>
-  `<li class = "list"> <img src = ${url} alt = ${alt}></li>`).join(" "); 
+  `<li class = "list"> <img class = "image" src = ${url} alt = ${alt}></li>`).join(" "); 
 
 const gallery = document.querySelector("ul");
 

@@ -24,7 +24,17 @@ button {
 }
 
 
-gallery {
-  list-style: none;
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.list {
+list-style: none;
+}
+
+.image {
+  display: block;
+  width: 400px;
+}
